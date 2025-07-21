@@ -2,8 +2,11 @@
     --sys-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Droid Sans", "Helvetica Neue";
     --zh-font-family: "PingFang SC", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei";
     --base-font-family: "Lato", var(--sys-font-family), var(--zh-font-family), sans-serif;
-    --article-font-family: var(--base-font-family);
     --code-font-family: Menlo, Monaco, Consolas, "Courier New", var(--zh-font-family), monospace;
+
+    --article-font-family: var(--base-font-family);
+    --article-font-size: 1.6rem;
+    --article-line-height: 1.6;
 
     --main-top-padding: 18px;
     --section-separation: 20px;
@@ -11,8 +14,6 @@
 
     --menu-icon-separation: 16px;
     --tag-border-radius: 3px;
-    --card-padding: 18px;
-    --card-border-radius: 4px;
 
     --body-background: #f5f5fa;
     --accent-color: #34495e;
@@ -22,6 +23,9 @@
     --scrollbar-thumb: hsl(0, 0%, 40%);
     --scrollbar-track: var(--body-background);
 
+    --card-padding: 18px;
+    --card-border-radius: 4px;
+    --small-card-padding: 18px;
     --card-background: #fff;
     --card-background-selected: #eaeaea;
     --card-text-color-main: #000;
@@ -70,7 +74,7 @@
 }
 
 .article-title {
-    font-size: 1.9rem;
+    font-size: 2.05rem;
 }
 
 .article-subtitle {
@@ -84,6 +88,18 @@
 .article-category a, .article-tags a {
     padding: 4px 8px;
     font-size: 1.2rem;
+}
+
+.article-list--compact article>a {
+    padding: var(--small-card-padding);
+}
+
+.article-page .main-article .article-content {
+    margin-top: 24px;
+}
+
+.article-page .main-article .article-footer section {
+    gap: 8px;
 }
 
 .tagCloud .tagCloud-tags {
@@ -125,6 +141,20 @@
 }
 .widget.archives .archives-year a span.year {
     font-weight: 500;
+}
+
+.widget--toc #TableOfContents {
+    padding: 0px;
+}
+
+.widget--toc #TableOfContents li {
+    margin: 18px;
+    padding: 0px;
+}
+
+.widget--toc #TableOfContents li>ol {
+    margin: 0px;
+    padding: 0px;
 }
 
 footer.site-footer:before {
