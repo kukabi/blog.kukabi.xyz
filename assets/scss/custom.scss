@@ -6,11 +6,44 @@
     --code-font-family: Menlo, Monaco, Consolas, "Courier New", var(--zh-font-family), monospace;
 
     --main-top-padding: 18px;
+    --section-separation: 24px;
 
     --menu-icon-separation: 16px;
     --tag-border-radius: 3px;
     --card-padding: 18px;
     --card-border-radius: 4px;
+
+    --body-background: #f5f5fa;
+    --accent-color: #34495e;
+    --accent-color-darker: #2c3e50;
+    --accent-color-text: #fff;
+    --body-text-color: #505050;
+    --scrollbar-thumb: hsl(0, 0%, 40%);
+    --scrollbar-track: var(--body-background);
+
+    --card-background: #fff;
+    --card-background-selected: #eaeaea;
+    --card-text-color-main: #000;
+    --card-text-color-secondary: #707070;
+    --card-text-color-tertiary: #747474;
+    --card-separator-color: rgba(218, 218, 218, 0.5);
+}
+
+:root[data-scheme=dark] {
+    --body-background: #2b2b2b;
+    --accent-color: #ecf0f1;
+    --accent-color-darker: #bdc3c7;
+    --accent-color-text: #000;
+    --body-text-color: rgba(255, 255, 255, 0.7);
+    --scrollbar-thumb: hsl(0, 0%, 40%);
+    --scrollbar-track: var(--body-background);
+
+    --card-background: #424242;
+    --card-background-selected: rgba(255, 255, 255, 0.16);
+    --card-text-color-main: rgba(255, 255, 255, 0.9);
+    --card-text-color-secondary: rgba(255, 255, 255, 0.7);
+    --card-text-color-tertiary: rgba(255, 255, 255, 0.5);
+    --card-separator-color: rgba(255, 255, 255, 0.12);
 }
 
 #main-menu {
@@ -18,7 +51,13 @@
 }
 
 .sidebar header .site-description {
-    line-height: 18px;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+}
+
+.left-sidebar {
+    --emoji-size: 28px;
+    --emoji-font-size: 18px;
 }
 
 .article-details {
@@ -45,4 +84,25 @@
 .article-category a, .article-tags a {
     padding: 4px 8px;
     font-size: 1.2rem;
+}
+
+footer.site-footer:before {
+    width: 120px;
+    height: 1.6px;
+    background: var(--card-text-color-tertiary);
+    opacity: 0.75;
+}
+
+footer.site-footer {
+    padding: 8px 0 16px;
+}
+
+footer.site-footer .copyright {
+    margin-bottom: 0px;
+}
+
+footer.site-footer .copyright {
+    color: var(--card-text-color-tertiary);
+    font-weight: 500;
+    letter-spacing: 1px;
 }
