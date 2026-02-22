@@ -1,5 +1,5 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://blog.kukabi.xyz'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Kutsal Kaan Bilgin (kukabi) - Blog'
 theme = 'stack'
 capitalizeListTitles = false
