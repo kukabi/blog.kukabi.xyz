@@ -1,5 +1,2 @@
-baseURL = 'https://blog.kukabi.xyz'
-languageCode = 'en-us'
-title = 'Kutsal Kaan Bilgin (kukabi) - Blog'
 theme = 'stack'
 capitalizeListTitles = false

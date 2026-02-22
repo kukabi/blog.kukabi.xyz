@@ -28,7 +28,7 @@ readingTime = true
 
 [article.license]
 enabled = true
-default = "Licensed under GPLv3"
+default = "Licensed under CC BY-NC 4.0"
 
 ## Widgets
 [[widgets.homepage]]
@@ -56,7 +56,7 @@ limit = 10
 type = "toc"
 
 [opengraph.twitter]
-site = ""
+site = "kukabi_"
 card = "summary_large_image"
 
 [defaultImage.opengraph]
@@ -77,74 +77,74 @@ enabled = true
 ## Comments
 [comments]
 enabled = false
-provider = "disqus"
+# provider = "disqus"
 
-[comments.disqusjs]
-shortname = ""
-apiUrl = ""
-apiKey = ""
-admin = ""
-adminLabel = ""
+# [comments.disqusjs]
+# shortname = ""
+# apiUrl = ""
+# apiKey = ""
+# admin = ""
+# adminLabel = ""
 
-[comments.utterances]
-repo = ""
-issueTerm = "pathname"
-label = ""
+# [comments.utterances]
+# repo = ""
+# issueTerm = "pathname"
+# label = ""
 
-[comments.remark42]
-host = ""
-site = ""
-locale = ""
+# [comments.remark42]
+# host = ""
+# site = ""
+# locale = ""
 
-[comments.vssue]
-platform = ""
-owner = ""
-repo = ""
-clientId = ""
-clientSecret = ""
-autoCreateIssue = false
+# [comments.vssue]
+# platform = ""
+# owner = ""
+# repo = ""
+# clientId = ""
+# clientSecret = ""
+# autoCreateIssue = false
 
-[comments.waline]
-serverURL = ""
-lang = ""
-visitor = ""
-avatar = ""
-emoji = ["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"]
-requiredMeta = ["name", "email", "url"]
-placeholder = ""
+# [comments.waline]
+# serverURL = ""
+# lang = ""
+# visitor = ""
+# avatar = ""
+# emoji = ["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"]
+# requiredMeta = ["name", "email", "url"]
+# placeholder = ""
 
-[comments.waline.locale]
-admin = "Admin"
+# [comments.waline.locale]
+# admin = "Admin"
 
-[comments.twikoo]
-envId = ""
-region = ""
-path = ""
-lang = ""
+# [comments.twikoo]
+# envId = ""
+# region = ""
+# path = ""
+# lang = ""
 
-[comments.cactus]
-defaultHomeserverUrl = "https://matrix.cactus.chat:8448"
-serverName = "cactus.chat"
-siteName = ""
+# [comments.cactus]
+# defaultHomeserverUrl = "https://matrix.cactus.chat:8448"
+# serverName = "cactus.chat"
+# siteName = ""
 
-[comments.giscus]
-repo = ""
-repoID = ""
-category = ""
-categoryID = ""
-mapping = ""
-lightTheme = ""
-darkTheme = ""
-reactionsEnabled = 1
-emitMetadata = 0
+# [comments.giscus]
+# repo = ""
+# repoID = ""
+# category = ""
+# categoryID = ""
+# mapping = ""
+# lightTheme = ""
+# darkTheme = ""
+# reactionsEnabled = 1
+# emitMetadata = 0
 
-[comments.gitalk]
-owner = ""
-admin = ""
-repo = ""
-clientID = ""
-clientSecret = ""
+# [comments.gitalk]
+# owner = ""
+# admin = ""
+# repo = ""
+# clientID = ""
+# clientSecret = ""
 
-[comments.cusdis]
-host = ""
-id = ""
+# [comments.cusdis]
+# host = ""
+# id = ""
